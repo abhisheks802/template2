@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template 2</title>
+    <script src="js/jquery-compressed.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="load()">
+<div id="loading"></div>
+<div class="header" id="header">
+    <div class="nav-bar">
+        <div class="menu-box">
+            <ul class="menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+        </div>
+        <div class="name">
+            <div class="dropdown">
+                <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+            </div>
+            <div class="c-name">
+                <h1>SunShade</h1>
+            </div>
+            <div class="shopping">
+                <i class="fa fa-shopping-cart fa-lg fa-flip-horizontal" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <div class="header-content">
+        <div class="header-words">
+            <div class="word-box">
+                <h2>Add Shades<br><span>To your life</span></h2>
+                <h3 class="ani">O-O</h3>
+            </div>
+        </div>
+        <div class="header-img">
+            <div class="img-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+                <img class="img2" src="img/bg2.png" alt="image2">
+                <img class="img1" src="img/bg1.png" alt="image1">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about" id="about">
+    <div class="about-heading">
+            <h2>About Us</h2>
+        </div>
+    <div class="about-content">
+        <div class="about-des">
+            <div class="about-img" data-aos="flip-right" data-aos-duration="600">
+                <img src="img/about.jpg" alt="Img">
+            </div>
+            <div class="paragraph" data-aos="fade-up-right" data-aos-duration="700">
+            <div class="about-company">
+                <h3>SunShade</h3>
+            </div>
+            <div class="about-details">
+                <p>Hello there! Welcome to the world of SunShade sunglasses. As our name suggests we are a company who sell branded sunglasses across the globe. Our company was founded by Abhishek Singh in the year<span class="other-words"> 2020 and since then we've been a very successful company. We sell a wide range of sunglasses and we're glad to tell you that we're one of the best in business. Our CEO is Abhishek Singh and we have a total of around 800 employees. Our branches are in Chennai, Hyderabad and Pune. Happy Shopping.</span><span class="dots">..</span></p>
+            </div>
+            </div>
+            <div class="read" id="read">
+                <h3>Read More</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="products" id="products">
+    <div class="products-content">
+        <div class="p-heading">
+           <h2>Products</h2>
+        </div>
+        <div class="product-details">
+            <div class="img-price" data-aos="fade-right" data-aos-duration="600">
+                <div class="product-img">
+                    <img src="img/1.jpg" alt="img">
+                </div>
+                <div class="product-name">
+                    <h3>Bluish-Shades</h3>
+                </div>
+                <div class="price">
+                    <h3>Price: Rs.300/-</h3>
+                </div>
+                <div class="read cart" id="come-top">
+                    <h3>Add To Cart</h3>
+                </div>
+            </div>
+            <div class="img-price" data-aos="fade-left" data-aos-duration="600">
+                <div class="product-img">
+                    <img src="img/2.jpg" alt="img">
+                </div>
+                <div class="product-name">
+                    <h3>Matrix-Shades</h3>
+                </div>
+                <div class="price">
+                    <h3>Price: Rs.400/-</h3>
+                </div>
+                <div class="read cart">
+                    <h3>Add To Cart</h3>
+                </div>
+            </div>
+            <div class="img-price" data-aos="fade-right" data-aos-duration="600">
+                <div class="product-img">
+                    <img src="img/3.jpg" alt="img">
+                </div>
+                <div class="product-name">
+                    <h3>Violet-Shades</h3>
+                </div>
+                <div class="price">
+                    <h3>Price: Rs.250/-</h3>
+                </div>
+                <div class="read cart">
+                    <h3>Add To Cart</h3>
+                </div>
+            </div>
+            <div class="img-price" data-aos="fade-left" data-aos-duration="600">
+                <div class="product-img">
+                    <img src="img/4.jpg" alt="img">
+                </div>
+                <div class="product-name">
+                    <h3>United-Shades</h3>
+                </div>
+                <div class="price">
+                    <h3>Price: Rs.500/-</h3>
+                </div>
+                <div class="read cart">
+                    <h3>Add To Cart</h3>
+                </div>
+            </div>
+            <div class="img-price" data-aos="fade-right" data-aos-duration="600">
+                <div class="product-img">
+                    <img src="img/5.jpg" alt="img">
+                </div>
+                <div class="product-name">
+                    <h3>Classy-Shades</h3>
+                </div>
+                <div class="price">
+                    <h3>Price: Rs.450/-</h3>
+                </div>
+                <div class="read cart">
+                    <h3>Add To Cart</h3>
+                </div>
+            </div>
+            <div class="img-price" data-aos="fade-left" data-aos-duration="600">
+                <div class="product-img">
+                    <img src="img/6.jpg" alt="img">
+                </div>
+                <div class="product-name">
+                    <h3>Woody-Shades</h3>
+                </div>
+                <div class="price">
+                    <h3>Price: Rs.600</h3>
+                </div>
+                <div class="read cart">
+                    <h3>Add To Cart</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-content">
+    <div class="social-box">
+        <ul class="social">
+            <li><a href="https://www.facebook.com/profile.php?id=100000985955408" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/abhisheks802" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/abhikhushiabhigum/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+    <div class="copyright copyright-2">
+        abhisheks802@gmail.com
+    </div>
+    <div class="copyright">
+        <i class="fa fa-copyright" aria-hidden="true"></i> Abhisehk Singh, 2020
+    </div>
+    </div>
+</div>
+</body>
+<script>
+    var preloader = document.getElementById("loading");
+    function load() {
+        preloader.style.display = 'none';
+    }
+</script>
+<script>AOS.init();</script>
+<script src="js/main.js"></script>
+</html>
