@@ -16,7 +16,6 @@ $(document).ready(function () {
         });
     }
     $("#read").click(function () {
-        $(".dots").fadeToggle();
         $(".other-words").fadeToggle();
     });
     $(".cart").on("click", function () {
