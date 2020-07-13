@@ -41,8 +41,7 @@ a{
     padding: 0;
 }
 .menu-box{
-    padding-left: 4vh;
-    padding-bottom: 1.2vh;
+    padding:0 1vh 1.2vh 2.5vh;
     margin-top: -16px;
     display: none;
     order: 5;
@@ -50,7 +49,7 @@ a{
 li {
     list-style: none;
     color: white;
-    padding-right: 3vh;
+    padding-right: 1vh;
     font-size: 20px;
 }
 .menu-box a{
@@ -150,14 +149,14 @@ li {
     text-align: center;
     margin: 4vh 2vh 0 2vh;
 }
-.about-heading, .p-heading{
+.about-heading, .p-heading, .branches-heading{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
 }
 .about-heading{
     margin-top: 14vh;
 }
-.about h2, .products h2{
+.about h2, .products h2, .branches h2{
     font-size: 35px;
 }
 .about h3{
@@ -256,6 +255,30 @@ li {
     opacity: 0;
     animation: zoom 1s ease forwards;
 }
+.branches{
+    min-height: 100vh;
+    overflow: hidden;
+}
+.branches-content, .branches-loc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.branches img {
+    height: 32vh;
+    min-height: 200px;
+    max-height: 250px;
+    width: 70vw;
+    min-width: 260px;
+    max-width: 340px;
+    border-radius: 25px;
+}
+.place{
+    margin-bottom: 2vh;
+}
+.branches h3{
+    font-size: 23px;
+}
 .footer-content{
     display: flex;
     flex-direction: column;
@@ -316,6 +339,16 @@ li {
     }
     .img-price{
         margin: 10px 10px;
+    }
+    .branches-loc{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .place{
+        margin: 0 1.5vh;
     }
 }
 @media only screen and (min-width: 1026px){
@@ -413,7 +446,7 @@ li {
     .about-img img{
         width: 40vw;
     }
-    .about h2, .products h2{
+    .about h2, .products h2, .branches h2{
         font-size: 42px;
     }
     .about h3 {
@@ -432,6 +465,16 @@ li {
     }
     .img-price{
         margin: 20px;
+    }
+    .branches-loc{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .place{
+        margin: 3.5vh 11vh 3.5vh 11vh;
     }
     .zoom{
         top: 40px;
