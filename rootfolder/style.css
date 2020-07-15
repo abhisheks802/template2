@@ -264,6 +264,9 @@ li {
     flex-direction: column;
     text-align: center;
 }
+.branches h2{
+    padding-top: 10vh;
+}
 .branches img {
     height: 32vh;
     min-height: 200px;
