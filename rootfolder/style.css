@@ -185,6 +185,7 @@ li {
     margin: 0 auto 3vh auto;
     background: black;
     color: white;
+    cursor: pointer;
     border-radius: 15px;
 }
 .read h3{
